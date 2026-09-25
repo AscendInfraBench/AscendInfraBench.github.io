@@ -1,0 +1,2230 @@
+{
+  "benchmark": "AscendInfraBench",
+  "runs": 216,
+  "tasks": 24,
+  "budget_hours": 2,
+  "configurations": [
+    {
+      "valid": 24,
+      "coverage_1.1": 12,
+      "coverage_2": 6,
+      "adaptation_delivery": 3,
+      "open_build_delivery": 3,
+      "conditional_geomean": 1.6278482433199715,
+      "infrastructure_stage": {
+        "training": {
+          "valid": 6,
+          "total": 6,
+          "conditional_geomean": 1.3586696724580285
+        },
+        "rl": {
+          "valid": 5,
+          "total": 5,
+          "conditional_geomean": 3.7439344328732256
+        },
+        "serving": {
+          "valid": 13,
+          "total": 13,
+          "conditional_geomean": 1.284469534657799
+        }
+      },
+      "stage_overall": 1.8694849556889832,
+      "engineering_scope": {
+        "Fixed": {
+          "valid": 13,
+          "total": 13,
+          "conditional_geomean": 1.2368114250774673
+        },
+        "Joint": {
+          "valid": 5,
+          "total": 5,
+          "conditional_geomean": 3.097725313519436
+        },
+        "Adapt": {
+          "valid": 3,
+          "total": 3,
+          "conditional_geomean": 1.2532790657492678
+        },
+        "OpenBuild": {
+          "valid": 3,
+          "total": 3,
+          "conditional_geomean": 2.3794518006064775
+        }
+      },
+      "scope_overall": 1.8385175192257623,
+      "agent_id": "astra",
+      "configuration": "GPT-6 Astra",
+      "harness": "Codex",
+      "effort": "max",
+      "harness_acquired_on": "2026-09-14",
+      "unchanged_baselines": 0,
+      "usage": {
+        "input_million": 20.832413,
+        "output_thousand": 125.534,
+        "tool_calls": 257.0
+      },
+      "harness_versions": {
+        "0.154.0": 24
+      },
+      "task_results": {
+        "T03": {
+          "ratio": 1.0587639832712852,
+          "status": "admitted",
+          "run_id": "run-069f83eb7d90",
+          "harness_version": "0.154.0"
+        },
+        "R01": {
+          "ratio": 2.210230710106246,
+          "status": "admitted",
+          "run_id": "run-12d36691c52e",
+          "harness_version": "0.154.0"
+        },
+        "T01": {
+          "ratio": 1.09183451788766,
+          "status": "admitted",
+          "run_id": "run-1db54eb8dd1a",
+          "harness_version": "0.154.0"
+        },
+        "S12": {
+          "ratio": 1.4417292999056839,
+          "status": "admitted",
+          "run_id": "run-4333ad387bc7",
+          "harness_version": "0.154.0"
+        },
+        "T05": {
+          "ratio": 1.026095045236544,
+          "status": "admitted",
+          "run_id": "run-4b5d9a11d7f4",
+          "harness_version": "0.154.0"
+        },
+        "T06": {
+          "ratio": 4.823425116764573,
+          "status": "admitted",
+          "run_id": "run-5160698c0857",
+          "harness_version": "0.154.0"
+        },
+        "S08": {
+          "ratio": 1.0946178504315527,
+          "status": "admitted",
+          "run_id": "run-5cb2b3029f0a",
+          "harness_version": "0.154.0"
+        },
+        "S06": {
+          "ratio": 1.0870617142443684,
+          "status": "admitted",
+          "run_id": "run-628560304f2b",
+          "harness_version": "0.154.0"
+        },
+        "S01": {
+          "ratio": 1.689721887060192,
+          "status": "admitted",
+          "run_id": "run-80b5b881a2b2",
+          "harness_version": "0.154.0"
+        },
+        "S03": {
+          "ratio": 1.355577754896607,
+          "status": "admitted",
+          "run_id": "run-88ba74638a67",
+          "harness_version": "0.154.0"
+        },
+        "R02": {
+          "ratio": 5.993938389131523,
+          "status": "admitted",
+          "run_id": "run-88d99c6e7fd5",
+          "harness_version": "0.154.0"
+        },
+        "R05": {
+          "ratio": 2.5393678674829907,
+          "status": "admitted",
+          "run_id": "run-92796af6bc81",
+          "harness_version": "0.154.0"
+        },
+        "R04": {
+          "ratio": 1.3306751335401736,
+          "status": "admitted",
+          "run_id": "run-9c59477b6f21",
+          "harness_version": "0.154.0"
+        },
+        "S13": {
+          "ratio": 1.0998908152231532,
+          "status": "admitted",
+          "run_id": "run-a585ba262ea6",
+          "harness_version": "0.154.0"
+        },
+        "T02": {
+          "ratio": 1.027455124342077,
+          "status": "admitted",
+          "run_id": "run-a78a65b7d4f1",
+          "harness_version": "0.154.0"
+        },
+        "S09": {
+          "ratio": 1.0335833998462025,
+          "status": "admitted",
+          "run_id": "run-a94d552c54eb",
+          "harness_version": "0.154.0"
+        },
+        "T04": {
+          "ratio": 1.070092488413383,
+          "status": "admitted",
+          "run_id": "run-b1aa40eea3d0",
+          "harness_version": "0.154.0"
+        },
+        "R03": {
+          "ratio": 16.432121115449657,
+          "status": "admitted",
+          "run_id": "run-bb4fe2acc5e1",
+          "harness_version": "0.154.0"
+        },
+        "S02": {
+          "ratio": 1.4985842194691694,
+          "status": "admitted",
+          "run_id": "run-d15591af853f",
+          "harness_version": "0.154.0"
+        },
+        "S10": {
+          "ratio": 2.642213619884789,
+          "status": "admitted",
+          "run_id": "run-d18f750ae640",
+          "harness_version": "0.154.0"
+        },
+        "S11": {
+          "ratio": 1.0242816185586168,
+          "status": "admitted",
+          "run_id": "run-e5a9d419c5a6",
+          "harness_version": "0.154.0"
+        },
+        "S04": {
+          "ratio": 1.0908673569170095,
+          "status": "admitted",
+          "run_id": "run-e5c79fd6dc46",
+          "harness_version": "0.154.0"
+        },
+        "S07": {
+          "ratio": 1.03304345312145,
+          "status": "admitted",
+          "run_id": "run-e7e578d9be56",
+          "harness_version": "0.154.0"
+        },
+        "S05": {
+          "ratio": 1.2688646327753714,
+          "status": "admitted",
+          "run_id": "run-ef4f7dd47505",
+          "harness_version": "0.154.0"
+        }
+      }
+    },
+    {
+      "valid": 22,
+      "coverage_1.1": 13,
+      "coverage_2": 3,
+      "adaptation_delivery": 2,
+      "open_build_delivery": 3,
+      "conditional_geomean": 1.374128677365906,
+      "infrastructure_stage": {
+        "training": {
+          "valid": 6,
+          "total": 6,
+          "conditional_geomean": 1.379433871003203
+        },
+        "rl": {
+          "valid": 4,
+          "total": 5,
+          "conditional_geomean": 2.2803476939148846
+        },
+        "serving": {
+          "valid": 12,
+          "total": 13,
+          "conditional_geomean": 1.1584201580120745
+        }
+      },
+      "stage_overall": 1.538825428200184,
+      "engineering_scope": {
+        "Fixed": {
+          "valid": 12,
+          "total": 13,
+          "conditional_geomean": 1.098032768478374
+        },
+        "Joint": {
+          "valid": 5,
+          "total": 5,
+          "conditional_geomean": 2.1826731869520026
+        },
+        "Adapt": {
+          "valid": 2,
+          "total": 3,
+          "conditional_geomean": 1.341827236258846
+        },
+        "OpenBuild": {
+          "valid": 3,
+          "total": 3,
+          "conditional_geomean": 1.5835343760985943
+        }
+      },
+      "scope_overall": 1.5022147717405214,
+      "agent_id": "fable",
+      "configuration": "Claude Fable 5.1",
+      "harness": "Claude Code",
+      "effort": "max",
+      "harness_acquired_on": "2026-09-14",
+      "unchanged_baselines": 2,
+      "usage": {
+        "input_million": 17.8543915,
+        "output_thousand": 173.4355,
+        "tool_calls": 277.0
+      },
+      "harness_versions": {
+        "2.1.267": 24
+      },
+      "task_results": {
+        "S05": {
+          "ratio": 1.040078765131209,
+          "status": "admitted",
+          "run_id": "run-069e0357879d",
+          "harness_version": "2.1.267"
+        },
+        "S06": {
+          "ratio": 1.0,
+          "status": "admitted",
+          "run_id": "run-09c2a54b1916",
+          "harness_version": "2.1.267"
+        },
+        "R05": {
+          "ratio": 1.290798161731751,
+          "status": "admitted",
+          "run_id": "run-259f2341b012",
+          "harness_version": "2.1.267"
+        },
+        "T04": {
+          "ratio": 1.124635710488434,
+          "status": "admitted",
+          "run_id": "run-30c502b29298",
+          "harness_version": "2.1.267"
+        },
+        "T02": {
+          "ratio": 1.1124735515991406,
+          "status": "admitted",
+          "run_id": "run-3230bd5c4c8e",
+          "harness_version": "2.1.267"
+        },
+        "S03": {
+          "ratio": 1.0573422284564191,
+          "status": "admitted",
+          "run_id": "run-348bd981fb27",
+          "harness_version": "2.1.267"
+        },
+        "S11": {
+          "ratio": 1.1082803299635968,
+          "status": "admitted",
+          "run_id": "run-37c192c53838",
+          "harness_version": "2.1.267"
+        },
+        "S02": {
+          "ratio": 1.0018849158243717,
+          "status": "admitted",
+          "run_id": "run-3bccc59c9641",
+          "harness_version": "2.1.267"
+        },
+        "T05": {
+          "ratio": 1.3158626747756648,
+          "status": "admitted",
+          "run_id": "run-4e5ad70c4bd8",
+          "harness_version": "2.1.267"
+        },
+        "S07": {
+          "ratio": 1.0,
+          "status": "admitted",
+          "run_id": "run-7b946ad148fb",
+          "harness_version": "2.1.267"
+        },
+        "S12": {
+          "ratio": 1.368304129663843,
+          "status": "admitted",
+          "run_id": "run-83164aa84edb",
+          "harness_version": "2.1.267"
+        },
+        "S09": {
+          "ratio": null,
+          "status": "measurement_failure",
+          "run_id": "run-9237b1e93132",
+          "harness_version": "2.1.267"
+        },
+        "R03": {
+          "ratio": 9.056911746659912,
+          "status": "admitted",
+          "run_id": "run-a460efc41dee",
+          "harness_version": "2.1.267"
+        },
+        "S13": {
+          "ratio": 1.0011871565174681,
+          "status": "admitted",
+          "run_id": "run-a76eb3f4f9aa",
+          "harness_version": "2.1.267"
+        },
+        "R02": {
+          "ratio": 1.80715459830237,
+          "status": "admitted",
+          "run_id": "run-ac9147681f9d",
+          "harness_version": "2.1.267"
+        },
+        "S04": {
+          "ratio": 1.0353505488375616,
+          "status": "admitted",
+          "run_id": "run-b4af128d1a3d",
+          "harness_version": "2.1.267"
+        },
+        "T06": {
+          "ratio": 3.07262018368477,
+          "status": "admitted",
+          "run_id": "run-b553924cc43d",
+          "harness_version": "2.1.267"
+        },
+        "R04": {
+          "ratio": null,
+          "status": "correctness_failure",
+          "run_id": "run-bf72fa9d0bfd",
+          "harness_version": "2.1.267"
+        },
+        "S10": {
+          "ratio": 2.4283239827516927,
+          "status": "admitted",
+          "run_id": "run-d29136841d7f",
+          "harness_version": "2.1.267"
+        },
+        "T03": {
+          "ratio": 1.2719550685515786,
+          "status": "admitted",
+          "run_id": "run-da354d17e938",
+          "harness_version": "2.1.267"
+        },
+        "S01": {
+          "ratio": 1.38069507755753,
+          "status": "admitted",
+          "run_id": "run-e862e46a41b9",
+          "harness_version": "2.1.267"
+        },
+        "T01": {
+          "ratio": 1.0708102799675472,
+          "status": "admitted",
+          "run_id": "run-e9be1a12326e",
+          "harness_version": "2.1.267"
+        },
+        "R01": {
+          "ratio": 1.2798836806454992,
+          "status": "admitted",
+          "run_id": "run-eaa43511a91e",
+          "harness_version": "2.1.267"
+        },
+        "S08": {
+          "ratio": 1.0056671700878659,
+          "status": "admitted",
+          "run_id": "run-fb2eec9449b0",
+          "harness_version": "2.1.267"
+        }
+      }
+    },
+    {
+      "valid": 23,
+      "coverage_1.1": 13,
+      "coverage_2": 3,
+      "adaptation_delivery": 3,
+      "open_build_delivery": 3,
+      "conditional_geomean": 1.3864579845857041,
+      "infrastructure_stage": {
+        "training": {
+          "valid": 6,
+          "total": 6,
+          "conditional_geomean": 1.4477516558562846
+        },
+        "rl": {
+          "valid": 4,
+          "total": 5,
+          "conditional_geomean": 2.3569277182441084
+        },
+        "serving": {
+          "valid": 13,
+          "total": 13,
+          "conditional_geomean": 1.1543330976311397
+        }
+      },
+      "stage_overall": 1.5792728191053682,
+      "engineering_scope": {
+        "Fixed": {
+          "valid": 13,
+          "total": 13,
+          "conditional_geomean": 1.152882860897595
+        },
+        "Joint": {
+          "valid": 4,
+          "total": 5,
+          "conditional_geomean": 2.1811043991169576
+        },
+        "Adapt": {
+          "valid": 3,
+          "total": 3,
+          "conditional_geomean": 1.3666188208419563
+        },
+        "OpenBuild": {
+          "valid": 3,
+          "total": 3,
+          "conditional_geomean": 1.710014027366268
+        }
+      },
+      "scope_overall": 1.5569590016888653,
+      "agent_id": "codex",
+      "configuration": "GPT-5.6 Sol",
+      "harness": "Codex",
+      "effort": "max",
+      "harness_acquired_on": "2026-08-24",
+      "unchanged_baselines": 0,
+      "usage": {
+        "input_million": 30.9586295,
+        "output_thousand": 65.5885,
+        "tool_calls": 152.5
+      },
+      "harness_versions": {
+        "0.149.1": 24
+      },
+      "task_results": {
+        "R02": {
+          "ratio": null,
+          "status": "source_rejection",
+          "run_id": "run-109600ed0092",
+          "harness_version": "0.149.1"
+        },
+        "S08": {
+          "ratio": 1.119188152207522,
+          "status": "admitted",
+          "run_id": "run-1698179fd2fe",
+          "harness_version": "0.149.1"
+        },
+        "R03": {
+          "ratio": 7.584040121839535,
+          "status": "admitted",
+          "run_id": "run-228f1929e077",
+          "harness_version": "0.149.1"
+        },
+        "T06": {
+          "ratio": 3.4529672097249984,
+          "status": "admitted",
+          "run_id": "run-3012c8b9a7eb",
+          "harness_version": "0.149.1"
+        },
+        "S04": {
+          "ratio": 1.0900086324479514,
+          "status": "admitted",
+          "run_id": "run-53167a485161",
+          "harness_version": "0.149.1"
+        },
+        "S13": {
+          "ratio": 0.9968561819348187,
+          "status": "admitted",
+          "run_id": "run-6210c788feef",
+          "harness_version": "0.149.1"
+        },
+        "S05": {
+          "ratio": 1.046236528516662,
+          "status": "admitted",
+          "run_id": "run-628e2662c34a",
+          "harness_version": "0.149.1"
+        },
+        "S10": {
+          "ratio": 2.2586184528067945,
+          "status": "admitted",
+          "run_id": "run-663322587da8",
+          "harness_version": "0.149.1"
+        },
+        "T03": {
+          "ratio": 1.275451094296668,
+          "status": "admitted",
+          "run_id": "run-69a031794f08",
+          "harness_version": "0.149.1"
+        },
+        "S07": {
+          "ratio": 1.0102217145290697,
+          "status": "admitted",
+          "run_id": "run-81ee93adbc3e",
+          "harness_version": "0.149.1"
+        },
+        "S11": {
+          "ratio": 1.040441612893491,
+          "status": "admitted",
+          "run_id": "run-82452df92732",
+          "harness_version": "0.149.1"
+        },
+        "R01": {
+          "ratio": 1.8795855249779632,
+          "status": "admitted",
+          "run_id": "run-8d1deca55902",
+          "harness_version": "0.149.1"
+        },
+        "S06": {
+          "ratio": 1.002037711455164,
+          "status": "admitted",
+          "run_id": "run-910ad5d4c96c",
+          "harness_version": "0.149.1"
+        },
+        "T05": {
+          "ratio": 1.3322606813394982,
+          "status": "admitted",
+          "run_id": "run-a26691c81fd9",
+          "harness_version": "0.149.1"
+        },
+        "S02": {
+          "ratio": 1.0607578924915657,
+          "status": "admitted",
+          "run_id": "run-a39bd637c10d",
+          "harness_version": "0.149.1"
+        },
+        "S03": {
+          "ratio": 1.0660342789804713,
+          "status": "admitted",
+          "run_id": "run-a90d0362c8d9",
+          "harness_version": "0.149.1"
+        },
+        "S12": {
+          "ratio": 1.28559654876741,
+          "status": "admitted",
+          "run_id": "run-ad04d8b88af5",
+          "harness_version": "0.149.1"
+        },
+        "R05": {
+          "ratio": 1.4526937171019025,
+          "status": "admitted",
+          "run_id": "run-b574415bc1bb",
+          "harness_version": "0.149.1"
+        },
+        "T02": {
+          "ratio": 1.1351070213576049,
+          "status": "admitted",
+          "run_id": "run-bb87501b8c99",
+          "harness_version": "0.149.1"
+        },
+        "R04": {
+          "ratio": 1.4902127802215714,
+          "status": "admitted",
+          "run_id": "run-bec23b710551",
+          "harness_version": "0.149.1"
+        },
+        "S01": {
+          "ratio": 1.424133494541154,
+          "status": "admitted",
+          "run_id": "run-c6164c68c8dc",
+          "harness_version": "0.149.1"
+        },
+        "S09": {
+          "ratio": 1.0311107323345365,
+          "status": "admitted",
+          "run_id": "run-e9482501fcaf",
+          "harness_version": "0.149.1"
+        },
+        "T04": {
+          "ratio": 1.2698271465285567,
+          "status": "admitted",
+          "run_id": "run-f169b8d3dd0a",
+          "harness_version": "0.149.1"
+        },
+        "T01": {
+          "ratio": 1.0887734672969038,
+          "status": "admitted",
+          "run_id": "run-fb3293ae3fdf",
+          "harness_version": "0.149.1"
+        }
+      }
+    },
+    {
+      "valid": 21,
+      "coverage_1.1": 11,
+      "coverage_2": 2,
+      "adaptation_delivery": 2,
+      "open_build_delivery": 2,
+      "conditional_geomean": 1.218488034996717,
+      "infrastructure_stage": {
+        "training": {
+          "valid": 6,
+          "total": 6,
+          "conditional_geomean": 1.3682933289223491
+        },
+        "rl": {
+          "valid": 2,
+          "total": 5,
+          "conditional_geomean": 1.2297470355622768
+        },
+        "serving": {
+          "valid": 13,
+          "total": 13,
+          "conditional_geomean": 1.1533592464670364
+        }
+      },
+      "stage_overall": 1.2473448315808255,
+      "engineering_scope": {
+        "Fixed": {
+          "valid": 13,
+          "total": 13,
+          "conditional_geomean": 1.1056639414657652
+        },
+        "Joint": {
+          "valid": 4,
+          "total": 5,
+          "conditional_geomean": 1.387432356744976
+        },
+        "Adapt": {
+          "valid": 2,
+          "total": 3,
+          "conditional_geomean": 1.3141431874667542
+        },
+        "OpenBuild": {
+          "valid": 2,
+          "total": 3,
+          "conditional_geomean": 1.6387267669912269
+        }
+      },
+      "scope_overall": 1.3481743190105224,
+      "agent_id": "opus",
+      "configuration": "Claude Opus 5",
+      "harness": "Claude Code",
+      "effort": "max",
+      "harness_acquired_on": "2026-08-24",
+      "unchanged_baselines": 0,
+      "usage": {
+        "input_million": 17.0469885,
+        "output_thousand": 154.0435,
+        "tool_calls": 169.0
+      },
+      "harness_versions": {
+        "2.1.241": 24
+      },
+      "task_results": {
+        "S07": {
+          "ratio": 0.974593009721317,
+          "status": "admitted",
+          "run_id": "run-004c5dbd9c92",
+          "harness_version": "2.1.241"
+        },
+        "S13": {
+          "ratio": 0.8499486844871931,
+          "status": "admitted",
+          "run_id": "run-008afa347125",
+          "harness_version": "2.1.241"
+        },
+        "R01": {
+          "ratio": 1.2195429758543568,
+          "status": "admitted",
+          "run_id": "run-078fd140033c",
+          "harness_version": "2.1.241"
+        },
+        "S11": {
+          "ratio": 1.010233124417044,
+          "status": "admitted",
+          "run_id": "run-096dd635e882",
+          "harness_version": "2.1.241"
+        },
+        "S03": {
+          "ratio": 1.024542075509283,
+          "status": "admitted",
+          "run_id": "run-098185083440",
+          "harness_version": "2.1.241"
+        },
+        "R05": {
+          "ratio": null,
+          "status": "correctness_failure",
+          "run_id": "run-14091c1b9ffb",
+          "harness_version": "2.1.241"
+        },
+        "T02": {
+          "ratio": 0.9980608740427398,
+          "status": "admitted",
+          "run_id": "run-18e78b1d726c",
+          "harness_version": "2.1.241"
+        },
+        "S10": {
+          "ratio": 2.549866332917106,
+          "status": "admitted",
+          "run_id": "run-1b468085ddfa",
+          "harness_version": "2.1.241"
+        },
+        "R04": {
+          "ratio": null,
+          "status": "correctness_failure",
+          "run_id": "run-3c7bc9d23c4f",
+          "harness_version": "2.1.241"
+        },
+        "T04": {
+          "ratio": 1.1600422198064195,
+          "status": "admitted",
+          "run_id": "run-48bcc2e042a1",
+          "harness_version": "2.1.241"
+        },
+        "T05": {
+          "ratio": 1.3356056579088624,
+          "status": "admitted",
+          "run_id": "run-4e8f396ce4b7",
+          "harness_version": "2.1.241"
+        },
+        "S06": {
+          "ratio": 1.0017526004256927,
+          "status": "admitted",
+          "run_id": "run-519bfa29a23b",
+          "harness_version": "2.1.241"
+        },
+        "S02": {
+          "ratio": 0.9855242266583861,
+          "status": "admitted",
+          "run_id": "run-5470ff3fb47a",
+          "harness_version": "2.1.241"
+        },
+        "R02": {
+          "ratio": 1.2400364738395333,
+          "status": "admitted",
+          "run_id": "run-5bbbae78b7fd",
+          "harness_version": "2.1.241"
+        },
+        "S09": {
+          "ratio": 1.061445864878508,
+          "status": "admitted",
+          "run_id": "run-6d2be15e65d0",
+          "harness_version": "2.1.241"
+        },
+        "T03": {
+          "ratio": 1.2806934110877786,
+          "status": "admitted",
+          "run_id": "run-6e7f41a37ee4",
+          "harness_version": "2.1.241"
+        },
+        "T01": {
+          "ratio": 1.0488191700544396,
+          "status": "admitted",
+          "run_id": "run-882a1a4d9150",
+          "harness_version": "2.1.241"
+        },
+        "S01": {
+          "ratio": 1.381866550559597,
+          "status": "admitted",
+          "run_id": "run-96aa709807c3",
+          "harness_version": "2.1.241"
+        },
+        "R03": {
+          "ratio": null,
+          "status": "source_rejection",
+          "run_id": "run-98c7e3a0eb38",
+          "harness_version": "2.1.241"
+        },
+        "T06": {
+          "ratio": 3.159514763498622,
+          "status": "admitted",
+          "run_id": "run-a40e0dae28ad",
+          "harness_version": "2.1.241"
+        },
+        "S12": {
+          "ratio": 1.2930256074754694,
+          "status": "admitted",
+          "run_id": "run-b9d27d0b216c",
+          "harness_version": "2.1.241"
+        },
+        "S04": {
+          "ratio": 1.0759133579910776,
+          "status": "admitted",
+          "run_id": "run-c10d8f44403d",
+          "harness_version": "2.1.241"
+        },
+        "S05": {
+          "ratio": 1.2891633003933147,
+          "status": "admitted",
+          "run_id": "run-d42a740b33e5",
+          "harness_version": "2.1.241"
+        },
+        "S08": {
+          "ratio": 1.1255658554126877,
+          "status": "admitted",
+          "run_id": "run-f624041224a7",
+          "harness_version": "2.1.241"
+        }
+      }
+    },
+    {
+      "valid": 20,
+      "coverage_1.1": 11,
+      "coverage_2": 5,
+      "adaptation_delivery": 2,
+      "open_build_delivery": 3,
+      "conditional_geomean": 1.3140000696797047,
+      "infrastructure_stage": {
+        "training": {
+          "valid": 6,
+          "total": 6,
+          "conditional_geomean": 1.2954243654545476
+        },
+        "rl": {
+          "valid": 3,
+          "total": 5,
+          "conditional_geomean": 2.3325801057281232
+        },
+        "serving": {
+          "valid": 11,
+          "total": 13,
+          "conditional_geomean": 1.1323827500628472
+        }
+      },
+      "stage_overall": 1.5068867860419177,
+      "engineering_scope": {
+        "Fixed": {
+          "valid": 11,
+          "total": 13,
+          "conditional_geomean": 1.1317548678900957
+        },
+        "Joint": {
+          "valid": 4,
+          "total": 5,
+          "conditional_geomean": 1.5838383402579208
+        },
+        "Adapt": {
+          "valid": 2,
+          "total": 3,
+          "conditional_geomean": 1.2384531821636005
+        },
+        "OpenBuild": {
+          "valid": 3,
+          "total": 3,
+          "conditional_geomean": 1.8422265179433621
+        }
+      },
+      "scope_overall": 1.4220715940419328,
+      "agent_id": "kimi",
+      "configuration": "Kimi K3",
+      "harness": "Kimi Code",
+      "effort": "max",
+      "harness_acquired_on": "2026-08-24",
+      "unchanged_baselines": 0,
+      "usage": {
+        "input_million": 24.991528,
+        "output_thousand": 108.733,
+        "tool_calls": 192.5
+      },
+      "harness_versions": {
+        "0.38.0": 24
+      },
+      "task_results": {
+        "S12": {
+          "ratio": 1.1890989770416007,
+          "status": "admitted",
+          "run_id": "run-09a8fb39bc3b",
+          "harness_version": "0.38.0"
+        },
+        "T02": {
+          "ratio": 1.1602269516638233,
+          "status": "admitted",
+          "run_id": "run-11699ece64a9",
+          "harness_version": "0.38.0"
+        },
+        "S05": {
+          "ratio": 1.0000968099106173,
+          "status": "admitted",
+          "run_id": "run-1d08618f0ab5",
+          "harness_version": "0.38.0"
+        },
+        "S01": {
+          "ratio": null,
+          "status": "measurement_failure",
+          "run_id": "run-1e0c4aa60a21",
+          "harness_version": "0.38.0"
+        },
+        "S10": {
+          "ratio": 2.594594908877432,
+          "status": "admitted",
+          "run_id": "run-2d6c5fdb49c3",
+          "harness_version": "0.38.0"
+        },
+        "R04": {
+          "ratio": null,
+          "status": "correctness_failure",
+          "run_id": "run-45fbafbcdcc3",
+          "harness_version": "0.38.0"
+        },
+        "S13": {
+          "ratio": 1.0282590485791685,
+          "status": "admitted",
+          "run_id": "run-607ceee34346",
+          "harness_version": "0.38.0"
+        },
+        "T04": {
+          "ratio": 1.1728723817889746,
+          "status": "admitted",
+          "run_id": "run-667079fb4650",
+          "harness_version": "0.38.0"
+        },
+        "R02": {
+          "ratio": 2.0633117219909547,
+          "status": "admitted",
+          "run_id": "run-6faffe4905cf",
+          "harness_version": "0.38.0"
+        },
+        "S04": {
+          "ratio": null,
+          "status": "measurement_failure",
+          "run_id": "run-7d14cc17743a",
+          "harness_version": "0.38.0"
+        },
+        "S03": {
+          "ratio": 0.9995897264188435,
+          "status": "admitted",
+          "run_id": "run-7efde54d710d",
+          "harness_version": "0.38.0"
+        },
+        "S07": {
+          "ratio": 1.0015987987312573,
+          "status": "admitted",
+          "run_id": "run-859c4079057c",
+          "harness_version": "0.38.0"
+        },
+        "T03": {
+          "ratio": 1.2336277040834196,
+          "status": "admitted",
+          "run_id": "run-9dcacc851b9c",
+          "harness_version": "0.38.0"
+        },
+        "T01": {
+          "ratio": 1.0785777446948739,
+          "status": "admitted",
+          "run_id": "run-9fa3be88b4b1",
+          "harness_version": "0.38.0"
+        },
+        "S06": {
+          "ratio": 0.9973893933519561,
+          "status": "admitted",
+          "run_id": "run-a8383847fbd9",
+          "harness_version": "0.38.0"
+        },
+        "T06": {
+          "ratio": 2.0234939422918594,
+          "status": "admitted",
+          "run_id": "run-aa0787341c74",
+          "harness_version": "0.38.0"
+        },
+        "S11": {
+          "ratio": 1.002208865765433,
+          "status": "admitted",
+          "run_id": "run-bbf8fd08c783",
+          "harness_version": "0.38.0"
+        },
+        "S09": {
+          "ratio": 1.1453905267592013,
+          "status": "admitted",
+          "run_id": "run-c1e8245fb916",
+          "harness_version": "0.38.0"
+        },
+        "R01": {
+          "ratio": 2.047011188599957,
+          "status": "admitted",
+          "run_id": "run-d8c3368859eb",
+          "harness_version": "0.38.0"
+        },
+        "R05": {
+          "ratio": 3.004862749283656,
+          "status": "admitted",
+          "run_id": "run-d990c429d87b",
+          "harness_version": "0.38.0"
+        },
+        "T05": {
+          "ratio": 1.2898558606341224,
+          "status": "admitted",
+          "run_id": "run-dc5f915d5d89",
+          "harness_version": "0.38.0"
+        },
+        "S02": {
+          "ratio": 1.0507534925024458,
+          "status": "admitted",
+          "run_id": "run-e5866c892940",
+          "harness_version": "0.38.0"
+        },
+        "S08": {
+          "ratio": 1.0273077214261237,
+          "status": "admitted",
+          "run_id": "run-e61e2337541f",
+          "harness_version": "0.38.0"
+        },
+        "R03": {
+          "ratio": null,
+          "status": "correctness_failure",
+          "run_id": "run-f878bda76c8d",
+          "harness_version": "0.38.0"
+        }
+      }
+    },
+    {
+      "valid": 20,
+      "coverage_1.1": 12,
+      "coverage_2": 3,
+      "adaptation_delivery": 2,
+      "open_build_delivery": 1,
+      "conditional_geomean": 1.2121944538054288,
+      "infrastructure_stage": {
+        "training": {
+          "valid": 5,
+          "total": 6,
+          "conditional_geomean": 1.1906808948374843
+        },
+        "rl": {
+          "valid": 3,
+          "total": 5,
+          "conditional_geomean": 1.2428214176982586
+        },
+        "serving": {
+          "valid": 12,
+          "total": 13,
+          "conditional_geomean": 1.2136782291583452
+        }
+      },
+      "stage_overall": 1.2155399172314347,
+      "engineering_scope": {
+        "Fixed": {
+          "valid": 13,
+          "total": 13,
+          "conditional_geomean": 1.1786481887523004
+        },
+        "Joint": {
+          "valid": 4,
+          "total": 5,
+          "conditional_geomean": 1.5657333913044873
+        },
+        "Adapt": {
+          "valid": 2,
+          "total": 3,
+          "conditional_geomean": 1.2066885954299174
+        },
+        "OpenBuild": {
+          "valid": 1,
+          "total": 3,
+          "conditional_geomean": 0.6329795381678164
+        }
+      },
+      "scope_overall": 1.089611608583127,
+      "agent_id": "deepseek",
+      "configuration": "DeepSeek-V4-Pro",
+      "harness": "DeepSeek",
+      "effort": "max",
+      "harness_acquired_on": "2026-08-24",
+      "unchanged_baselines": 1,
+      "usage": {
+        "input_million": 33.953254,
+        "output_thousand": 78.42,
+        "tool_calls": 182.0
+      },
+      "harness_versions": {
+        "0.1.1-rc.2": 24
+      },
+      "task_results": {
+        "S10": {
+          "ratio": 2.587882759555259,
+          "status": "admitted",
+          "run_id": "run-190b1d50e1b0",
+          "harness_version": "0.1.1-rc.2"
+        },
+        "T05": {
+          "ratio": 1.2869140914357722,
+          "status": "admitted",
+          "run_id": "run-2427f0c4ba92",
+          "harness_version": "0.1.1-rc.2"
+        },
+        "S04": {
+          "ratio": 1.0737802472130484,
+          "status": "admitted",
+          "run_id": "run-400f8ad9fd3f",
+          "harness_version": "0.1.1-rc.2"
+        },
+        "S09": {
+          "ratio": 1.1298592762328776,
+          "status": "admitted",
+          "run_id": "run-421c18d011df",
+          "harness_version": "0.1.1-rc.2"
+        },
+        "R03": {
+          "ratio": null,
+          "status": "source_rejection",
+          "run_id": "run-4386412fdd8a",
+          "harness_version": "0.1.1-rc.2"
+        },
+        "R04": {
+          "ratio": null,
+          "status": "correctness_failure",
+          "run_id": "run-4722bc0be5c3",
+          "harness_version": "0.1.1-rc.2"
+        },
+        "S02": {
+          "ratio": 0.8866050572795879,
+          "status": "admitted",
+          "run_id": "run-50c42d781f69",
+          "harness_version": "0.1.1-rc.2"
+        },
+        "S06": {
+          "ratio": 1.0,
+          "status": "admitted",
+          "run_id": "run-51652e0510b3",
+          "harness_version": "0.1.1-rc.2"
+        },
+        "S08": {
+          "ratio": 0.9983591822004659,
+          "status": "admitted",
+          "run_id": "run-5cb78e4a88fc",
+          "harness_version": "0.1.1-rc.2"
+        },
+        "T03": {
+          "ratio": 1.358182019031466,
+          "status": "admitted",
+          "run_id": "run-699ac79bd795",
+          "harness_version": "0.1.1-rc.2"
+        },
+        "T04": {
+          "ratio": 1.1073818497984318,
+          "status": "admitted",
+          "run_id": "run-6c9744769a38",
+          "harness_version": "0.1.1-rc.2"
+        },
+        "S03": {
+          "ratio": 1.2706520387194327,
+          "status": "admitted",
+          "run_id": "run-6cf1ace0dc01",
+          "harness_version": "0.1.1-rc.2"
+        },
+        "R01": {
+          "ratio": 1.4586325724339606,
+          "status": "admitted",
+          "run_id": "run-7e350e75622d",
+          "harness_version": "0.1.1-rc.2"
+        },
+        "S12": {
+          "ratio": 1.131464311433642,
+          "status": "admitted",
+          "run_id": "run-9372f9e3cd25",
+          "harness_version": "0.1.1-rc.2"
+        },
+        "R05": {
+          "ratio": 0.6329795381678164,
+          "status": "admitted",
+          "run_id": "run-99cb45496a7d",
+          "harness_version": "0.1.1-rc.2"
+        },
+        "T02": {
+          "ratio": 1.1320436018363176,
+          "status": "admitted",
+          "run_id": "run-bbd290d0989f",
+          "harness_version": "0.1.1-rc.2"
+        },
+        "S05": {
+          "ratio": 1.1318284198035053,
+          "status": "admitted",
+          "run_id": "run-bdcd275b77d7",
+          "harness_version": "0.1.1-rc.2"
+        },
+        "S01": {
+          "ratio": 2.2206540145123395,
+          "status": "admitted",
+          "run_id": "run-c37f6f3e09a3",
+          "harness_version": "0.1.1-rc.2"
+        },
+        "T06": {
+          "ratio": null,
+          "status": "correctness_failure",
+          "run_id": "run-d08e21135540",
+          "harness_version": "0.1.1-rc.2"
+        },
+        "R02": {
+          "ratio": 2.079172910280227,
+          "status": "admitted",
+          "run_id": "run-d16fafe204a2",
+          "harness_version": "0.1.1-rc.2"
+        },
+        "S13": {
+          "ratio": null,
+          "status": "correctness_failure",
+          "run_id": "run-df3d171701b9",
+          "harness_version": "0.1.1-rc.2"
+        },
+        "S11": {
+          "ratio": 1.0086457148811085,
+          "status": "admitted",
+          "run_id": "run-ecc8774aecc2",
+          "harness_version": "0.1.1-rc.2"
+        },
+        "T01": {
+          "ratio": 1.092216762484514,
+          "status": "admitted",
+          "run_id": "run-ed3be6f39371",
+          "harness_version": "0.1.1-rc.2"
+        },
+        "S07": {
+          "ratio": 1.0084949234013179,
+          "status": "admitted",
+          "run_id": "run-fcc0a031f07a",
+          "harness_version": "0.1.1-rc.2"
+        }
+      }
+    },
+    {
+      "valid": 19,
+      "coverage_1.1": 9,
+      "coverage_2": 2,
+      "adaptation_delivery": 3,
+      "open_build_delivery": 0,
+      "conditional_geomean": 1.335869872480499,
+      "infrastructure_stage": {
+        "training": {
+          "valid": 5,
+          "total": 6,
+          "conditional_geomean": 1.135821547860104
+        },
+        "rl": {
+          "valid": 3,
+          "total": 5,
+          "conditional_geomean": 2.7400332038211923
+        },
+        "serving": {
+          "valid": 11,
+          "total": 13,
+          "conditional_geomean": 1.1822248590324818
+        }
+      },
+      "stage_overall": 1.54379159489437,
+      "engineering_scope": {
+        "Fixed": {
+          "valid": 12,
+          "total": 13,
+          "conditional_geomean": 1.1383197698118195
+        },
+        "Joint": {
+          "valid": 4,
+          "total": 5,
+          "conditional_geomean": 2.4309884394972703
+        },
+        "Adapt": {
+          "valid": 3,
+          "total": 3,
+          "conditional_geomean": 1.1404388727225598
+        },
+        "OpenBuild": {
+          "valid": 0,
+          "total": 3,
+          "conditional_geomean": null
+        }
+      },
+      "scope_overall": null,
+      "agent_id": "glm",
+      "configuration": "GLM-5.3",
+      "harness": "Claude Code",
+      "effort": "max",
+      "harness_acquired_on": "2026-08-24",
+      "unchanged_baselines": 1,
+      "usage": {
+        "input_million": 18.982268,
+        "output_thousand": 84.668,
+        "tool_calls": 178.0
+      },
+      "harness_versions": {
+        "2.1.241": 24
+      },
+      "task_results": {
+        "T06": {
+          "ratio": null,
+          "status": "correctness_failure",
+          "run_id": "run-0de6b2f76503",
+          "harness_version": "2.1.241"
+        },
+        "T05": {
+          "ratio": 1.312689130502555,
+          "status": "admitted",
+          "run_id": "run-13b180d4c554",
+          "harness_version": "2.1.241"
+        },
+        "R04": {
+          "ratio": 0.9784040909829289,
+          "status": "admitted",
+          "run_id": "run-18daaa65b7ea",
+          "harness_version": "2.1.241"
+        },
+        "S10": {
+          "ratio": 2.610234560947878,
+          "status": "admitted",
+          "run_id": "run-22051e4dafa3",
+          "harness_version": "2.1.241"
+        },
+        "T02": {
+          "ratio": 1.0003892191491743,
+          "status": "admitted",
+          "run_id": "run-24a09bb7324f",
+          "harness_version": "2.1.241"
+        },
+        "S07": {
+          "ratio": 1.0007962540092017,
+          "status": "admitted",
+          "run_id": "run-387d2c6f3cdc",
+          "harness_version": "2.1.241"
+        },
+        "S03": {
+          "ratio": 1.204773017632723,
+          "status": "admitted",
+          "run_id": "run-3bd4f0e4f4f1",
+          "harness_version": "2.1.241"
+        },
+        "S05": {
+          "ratio": null,
+          "status": "measurement_failure",
+          "run_id": "run-3c5b28b4ff6b",
+          "harness_version": "2.1.241"
+        },
+        "T03": {
+          "ratio": 1.0130260774327366,
+          "status": "admitted",
+          "run_id": "run-58464a7d75de",
+          "harness_version": "2.1.241"
+        },
+        "S06": {
+          "ratio": 1.0,
+          "status": "admitted",
+          "run_id": "run-60a33a370b62",
+          "harness_version": "2.1.241"
+        },
+        "R05": {
+          "ratio": null,
+          "status": "correctness_failure",
+          "run_id": "run-66a9c3009488",
+          "harness_version": "2.1.241"
+        },
+        "S09": {
+          "ratio": 1.0135839024704913,
+          "status": "admitted",
+          "run_id": "run-6f868885724d",
+          "harness_version": "2.1.241"
+        },
+        "S02": {
+          "ratio": 1.0275371172373733,
+          "status": "admitted",
+          "run_id": "run-6fa08fb49788",
+          "harness_version": "2.1.241"
+        },
+        "T01": {
+          "ratio": 1.2617301584783753,
+          "status": "admitted",
+          "run_id": "run-80c55e614b5f",
+          "harness_version": "2.1.241"
+        },
+        "S12": {
+          "ratio": 1.1548774124913228,
+          "status": "admitted",
+          "run_id": "run-81be2c1e3c38",
+          "harness_version": "2.1.241"
+        },
+        "S01": {
+          "ratio": 1.5623784448001699,
+          "status": "admitted",
+          "run_id": "run-86bd299f45bc",
+          "harness_version": "2.1.241"
+        },
+        "R03": {
+          "ratio": 11.41484383815152,
+          "status": "admitted",
+          "run_id": "run-8ad713402a25",
+          "harness_version": "2.1.241"
+        },
+        "T04": {
+          "ratio": 1.1262440677368557,
+          "status": "admitted",
+          "run_id": "run-8e41a4fb4649",
+          "harness_version": "2.1.241"
+        },
+        "S04": {
+          "ratio": 1.0189421724294034,
+          "status": "admitted",
+          "run_id": "run-96e0dad9b993",
+          "harness_version": "2.1.241"
+        },
+        "R02": {
+          "ratio": null,
+          "status": "correctness_failure",
+          "run_id": "run-b18e171319c9",
+          "harness_version": "2.1.241"
+        },
+        "S13": {
+          "ratio": null,
+          "status": "measurement_failure",
+          "run_id": "run-bf0582d83809",
+          "harness_version": "2.1.241"
+        },
+        "S08": {
+          "ratio": 1.0052916731881727,
+          "status": "admitted",
+          "run_id": "run-e053baae31ff",
+          "harness_version": "2.1.241"
+        },
+        "R01": {
+          "ratio": 1.8419559611307408,
+          "status": "admitted",
+          "run_id": "run-e329d77e6940",
+          "harness_version": "2.1.241"
+        },
+        "S11": {
+          "ratio": 1.0407574964064867,
+          "status": "admitted",
+          "run_id": "run-fc034599f1f8",
+          "harness_version": "2.1.241"
+        }
+      }
+    },
+    {
+      "valid": 15,
+      "coverage_1.1": 4,
+      "coverage_2": 1,
+      "adaptation_delivery": 1,
+      "open_build_delivery": 0,
+      "conditional_geomean": 1.1182022026648952,
+      "infrastructure_stage": {
+        "training": {
+          "valid": 4,
+          "total": 6,
+          "conditional_geomean": 1.0190534714760298
+        },
+        "rl": {
+          "valid": 2,
+          "total": 5,
+          "conditional_geomean": 1.2057740272661284
+        },
+        "serving": {
+          "valid": 9,
+          "total": 13,
+          "conditional_geomean": 1.1459483552279714
+        }
+      },
+      "stage_overall": 1.1208374869932123,
+      "engineering_scope": {
+        "Fixed": {
+          "valid": 12,
+          "total": 13,
+          "conditional_geomean": 1.1281833799878824
+        },
+        "Joint": {
+          "valid": 2,
+          "total": 5,
+          "conditional_geomean": 0.9972932232518485
+        },
+        "Adapt": {
+          "valid": 1,
+          "total": 3,
+          "conditional_geomean": 1.263580876496821
+        },
+        "OpenBuild": {
+          "valid": 0,
+          "total": 3,
+          "conditional_geomean": null
+        }
+      },
+      "scope_overall": null,
+      "agent_id": "minimax",
+      "configuration": "MiniMax M3",
+      "harness": "Claude Code",
+      "effort": "max",
+      "harness_acquired_on": "2026-08-24",
+      "unchanged_baselines": 1,
+      "usage": {
+        "input_million": 45.1734125,
+        "output_thousand": 70.2165,
+        "tool_calls": 302.5
+      },
+      "harness_versions": {
+        "2.1.241": 24
+      },
+      "task_results": {
+        "R02": {
+          "ratio": 1.048752058356982,
+          "status": "admitted",
+          "run_id": "run-00b8c92ff5e1",
+          "harness_version": "2.1.241"
+        },
+        "T02": {
+          "ratio": 1.0,
+          "status": "admitted",
+          "run_id": "run-020bd3dcbcf7",
+          "harness_version": "2.1.241"
+        },
+        "S03": {
+          "ratio": 0.9921757043338262,
+          "status": "admitted",
+          "run_id": "run-17264d73c722",
+          "harness_version": "2.1.241"
+        },
+        "S11": {
+          "ratio": null,
+          "status": "correctness_failure",
+          "run_id": "run-2905dbfc35ab",
+          "harness_version": "2.1.241"
+        },
+        "T03": {
+          "ratio": 1.0385200077217276,
+          "status": "admitted",
+          "run_id": "run-319f38e3eaf1",
+          "harness_version": "2.1.241"
+        },
+        "T01": {
+          "ratio": 1.0949646876522499,
+          "status": "admitted",
+          "run_id": "run-3be50377c59c",
+          "harness_version": "2.1.241"
+        },
+        "T06": {
+          "ratio": null,
+          "status": "correctness_failure",
+          "run_id": "run-3f3b0859b244",
+          "harness_version": "2.1.241"
+        },
+        "S04": {
+          "ratio": 1.0318212501784276,
+          "status": "admitted",
+          "run_id": "run-4544fda3c305",
+          "harness_version": "2.1.241"
+        },
+        "T04": {
+          "ratio": 0.9483593049650199,
+          "status": "admitted",
+          "run_id": "run-4f1829fa47ba",
+          "harness_version": "2.1.241"
+        },
+        "S02": {
+          "ratio": 1.0432718715191291,
+          "status": "admitted",
+          "run_id": "run-5b9d8b8ae9f9",
+          "harness_version": "2.1.241"
+        },
+        "S05": {
+          "ratio": 1.0069303508408445,
+          "status": "admitted",
+          "run_id": "run-6685b0043312",
+          "harness_version": "2.1.241"
+        },
+        "R03": {
+          "ratio": null,
+          "status": "correctness_failure",
+          "run_id": "run-88868826bf3d",
+          "harness_version": "2.1.241"
+        },
+        "S10": {
+          "ratio": null,
+          "status": "correctness_failure",
+          "run_id": "run-8dfdd69b724f",
+          "harness_version": "2.1.241"
+        },
+        "S06": {
+          "ratio": 1.0083440797731849,
+          "status": "admitted",
+          "run_id": "run-8fba127a5f7e",
+          "harness_version": "2.1.241"
+        },
+        "S12": {
+          "ratio": 1.263580876496821,
+          "status": "admitted",
+          "run_id": "run-963c6ae932c2",
+          "harness_version": "2.1.241"
+        },
+        "S08": {
+          "ratio": 1.1215657585735876,
+          "status": "admitted",
+          "run_id": "run-9f8769d98a00",
+          "harness_version": "2.1.241"
+        },
+        "S13": {
+          "ratio": null,
+          "status": "correctness_failure",
+          "run_id": "run-a3af7c775cf5",
+          "harness_version": "2.1.241"
+        },
+        "S09": {
+          "ratio": null,
+          "status": "measurement_failure",
+          "run_id": "run-ae7f6100d136",
+          "harness_version": "2.1.241"
+        },
+        "R01": {
+          "ratio": 1.386305746190671,
+          "status": "admitted",
+          "run_id": "run-b8a83ae5d46e",
+          "harness_version": "2.1.241"
+        },
+        "S07": {
+          "ratio": 1.0020934503847385,
+          "status": "admitted",
+          "run_id": "run-baa46729c921",
+          "harness_version": "2.1.241"
+        },
+        "R04": {
+          "ratio": null,
+          "status": "correctness_failure",
+          "run_id": "run-da8e7ad3ade4",
+          "harness_version": "2.1.241"
+        },
+        "R05": {
+          "ratio": null,
+          "status": "correctness_failure",
+          "run_id": "run-e020245b8f20",
+          "harness_version": "2.1.241"
+        },
+        "S01": {
+          "ratio": 2.212843305303757,
+          "status": "admitted",
+          "run_id": "run-e27ab5e5c4f6",
+          "harness_version": "2.1.241"
+        },
+        "T05": {
+          "ratio": null,
+          "status": "correctness_failure",
+          "run_id": "run-fc1e7cb93945",
+          "harness_version": "2.1.241"
+        }
+      }
+    },
+    {
+      "valid": 14,
+      "coverage_1.1": 4,
+      "coverage_2": 1,
+      "adaptation_delivery": 2,
+      "open_build_delivery": 0,
+      "conditional_geomean": 1.1282486808875767,
+      "infrastructure_stage": {
+        "training": {
+          "valid": 4,
+          "total": 6,
+          "conditional_geomean": 1.0520783723520781
+        },
+        "rl": {
+          "valid": 1,
+          "total": 5,
+          "conditional_geomean": 1.474778699551274
+        },
+        "serving": {
+          "valid": 9,
+          "total": 13,
+          "conditional_geomean": 1.1297232076427128
+        }
+      },
+      "stage_overall": 1.2057270379706853,
+      "engineering_scope": {
+        "Fixed": {
+          "valid": 11,
+          "total": 13,
+          "conditional_geomean": 1.1333650556160857
+        },
+        "Joint": {
+          "valid": 1,
+          "total": 5,
+          "conditional_geomean": 0.9873686468269807
+        },
+        "Adapt": {
+          "valid": 2,
+          "total": 3,
+          "conditional_geomean": 1.1764139747773226
+        },
+        "OpenBuild": {
+          "valid": 0,
+          "total": 3,
+          "conditional_geomean": null
+        }
+      },
+      "scope_overall": null,
+      "agent_id": "gemini",
+      "configuration": "Gemini 3.7 Flash",
+      "harness": "Antigravity",
+      "effort": "high",
+      "harness_acquired_on": "2026-08-24",
+      "unchanged_baselines": 0,
+      "usage": {
+        "input_million": 36.761037,
+        "output_thousand": 104.977,
+        "tool_calls": 241.0
+      },
+      "harness_versions": {
+        "1.1.19": 24
+      },
+      "task_results": {
+        "T06": {
+          "ratio": null,
+          "status": "source_rejection",
+          "run_id": "run-013504438264",
+          "harness_version": "1.1.19"
+        },
+        "S04": {
+          "ratio": 1.0035203318972559,
+          "status": "admitted",
+          "run_id": "run-0f856008fd57",
+          "harness_version": "1.1.19"
+        },
+        "S09": {
+          "ratio": null,
+          "status": "measurement_failure",
+          "run_id": "run-231a0dfdde6a",
+          "harness_version": "1.1.19"
+        },
+        "S12": {
+          "ratio": 1.3784183509462178,
+          "status": "admitted",
+          "run_id": "run-2dc8f726e089",
+          "harness_version": "1.1.19"
+        },
+        "T01": {
+          "ratio": 0.9915521168867997,
+          "status": "admitted",
+          "run_id": "run-3508520ef89a",
+          "harness_version": "1.1.19"
+        },
+        "S06": {
+          "ratio": 0.9730491262709912,
+          "status": "admitted",
+          "run_id": "run-3e18605e3594",
+          "harness_version": "1.1.19"
+        },
+        "T04": {
+          "ratio": null,
+          "status": "correctness_failure",
+          "run_id": "run-4196d014f2cb",
+          "harness_version": "1.1.19"
+        },
+        "S02": {
+          "ratio": 0.9802939982028552,
+          "status": "admitted",
+          "run_id": "run-52466d77c4a5",
+          "harness_version": "1.1.19"
+        },
+        "S03": {
+          "ratio": null,
+          "status": "source_rejection",
+          "run_id": "run-55808516fcba",
+          "harness_version": "1.1.19"
+        },
+        "R04": {
+          "ratio": null,
+          "status": "correctness_failure",
+          "run_id": "run-664bc29a5893",
+          "harness_version": "1.1.19"
+        },
+        "R02": {
+          "ratio": null,
+          "status": "correctness_failure",
+          "run_id": "run-6c57f64211cf",
+          "harness_version": "1.1.19"
+        },
+        "T02": {
+          "ratio": 1.0003702182372256,
+          "status": "admitted",
+          "run_id": "run-7315b7860f15",
+          "harness_version": "1.1.19"
+        },
+        "S05": {
+          "ratio": 1.0008555109009902,
+          "status": "admitted",
+          "run_id": "run-75266b510e86",
+          "harness_version": "1.1.19"
+        },
+        "S01": {
+          "ratio": 2.233162661687398,
+          "status": "admitted",
+          "run_id": "run-77dfd92c87b0",
+          "harness_version": "1.1.19"
+        },
+        "S07": {
+          "ratio": 1.0265569608481477,
+          "status": "admitted",
+          "run_id": "run-aaf3dfd89afd",
+          "harness_version": "1.1.19"
+        },
+        "T03": {
+          "ratio": 1.2302029606906273,
+          "status": "admitted",
+          "run_id": "run-ad4edb42ebaf",
+          "harness_version": "1.1.19"
+        },
+        "R03": {
+          "ratio": null,
+          "status": "source_rejection",
+          "run_id": "run-b585fa320336",
+          "harness_version": "1.1.19"
+        },
+        "T05": {
+          "ratio": 1.004012924741871,
+          "status": "admitted",
+          "run_id": "run-c55c9df89e3c",
+          "harness_version": "1.1.19"
+        },
+        "S10": {
+          "ratio": null,
+          "status": "measurement_failure",
+          "run_id": "run-d1b65bee8784",
+          "harness_version": "1.1.19"
+        },
+        "R05": {
+          "ratio": null,
+          "status": "source_rejection",
+          "run_id": "run-d58066786a46",
+          "harness_version": "1.1.19"
+        },
+        "S13": {
+          "ratio": null,
+          "status": "correctness_failure",
+          "run_id": "run-ecd15fcf0cec",
+          "harness_version": "1.1.19"
+        },
+        "R01": {
+          "ratio": 1.474778699551274,
+          "status": "admitted",
+          "run_id": "run-f280c9f74009",
+          "harness_version": "1.1.19"
+        },
+        "S11": {
+          "ratio": 0.9873686468269807,
+          "status": "admitted",
+          "run_id": "run-f6b4432d1c37",
+          "harness_version": "1.1.19"
+        },
+        "S08": {
+          "ratio": 1.0027576731124077,
+          "status": "admitted",
+          "run_id": "run-f7a27224df77",
+          "harness_version": "1.1.19"
+        }
+      }
+    }
+  ],
+  "unmodified_starting_code": {
+    "valid": 18,
+    "coverage_1.1": 0,
+    "coverage_2": 0,
+    "adaptation_delivery": 0,
+    "open_build_delivery": 0,
+    "conditional_geomean": 1.0,
+    "infrastructure_stage": {
+      "training": {
+        "valid": 4,
+        "total": 6,
+        "conditional_geomean": 1.0
+      },
+      "rl": {
+        "valid": 3,
+        "total": 5,
+        "conditional_geomean": 1.0
+      },
+      "serving": {
+        "valid": 11,
+        "total": 13,
+        "conditional_geomean": 1.0
+      }
+    },
+    "stage_overall": 1.0,
+    "engineering_scope": {
+      "Fixed": {
+        "valid": 13,
+        "total": 13,
+        "conditional_geomean": 1.0
+      },
+      "Joint": {
+        "valid": 5,
+        "total": 5,
+        "conditional_geomean": 1.0
+      },
+      "Adapt": {
+        "valid": 0,
+        "total": 3,
+        "conditional_geomean": null
+      },
+      "OpenBuild": {
+        "valid": 0,
+        "total": 3,
+        "conditional_geomean": null
+      }
+    },
+    "scope_overall": null,
+    "label": "Unmodified starting code",
+    "basis": "rule-derived; not an agent run",
+    "usage": null,
+    "task_results": {
+      "R04": {
+        "ratio": null,
+        "status": "unavailable"
+      },
+      "R01": {
+        "ratio": 1.0,
+        "status": "admitted"
+      },
+      "R02": {
+        "ratio": 1.0,
+        "status": "admitted"
+      },
+      "R03": {
+        "ratio": 1.0,
+        "status": "admitted"
+      },
+      "R05": {
+        "ratio": null,
+        "status": "unavailable"
+      },
+      "S12": {
+        "ratio": null,
+        "status": "unavailable"
+      },
+      "S07": {
+        "ratio": 1.0,
+        "status": "admitted"
+      },
+      "S10": {
+        "ratio": 1.0,
+        "status": "admitted"
+      },
+      "S08": {
+        "ratio": 1.0,
+        "status": "admitted"
+      },
+      "S11": {
+        "ratio": 1.0,
+        "status": "admitted"
+      },
+      "S13": {
+        "ratio": null,
+        "status": "unavailable"
+      },
+      "S01": {
+        "ratio": 1.0,
+        "status": "admitted"
+      },
+      "S02": {
+        "ratio": 1.0,
+        "status": "admitted"
+      },
+      "S03": {
+        "ratio": 1.0,
+        "status": "admitted"
+      },
+      "S04": {
+        "ratio": 1.0,
+        "status": "admitted"
+      },
+      "S05": {
+        "ratio": 1.0,
+        "status": "admitted"
+      },
+      "S06": {
+        "ratio": 1.0,
+        "status": "admitted"
+      },
+      "S09": {
+        "ratio": 1.0,
+        "status": "admitted"
+      },
+      "T05": {
+        "ratio": null,
+        "status": "unavailable"
+      },
+      "T01": {
+        "ratio": 1.0,
+        "status": "admitted"
+      },
+      "T02": {
+        "ratio": 1.0,
+        "status": "admitted"
+      },
+      "T03": {
+        "ratio": 1.0,
+        "status": "admitted"
+      },
+      "T04": {
+        "ratio": 1.0,
+        "status": "admitted"
+      },
+      "T06": {
+        "ratio": null,
+        "status": "unavailable"
+      }
+    }
+  },
+  "harness_batches": [
+    {
+      "acquired_on": "2026-08-24",
+      "agent_ids": [
+        "codex",
+        "opus",
+        "kimi",
+        "deepseek",
+        "glm",
+        "minimax",
+        "gemini"
+      ]
+    },
+    {
+      "acquired_on": "2026-09-14",
+      "agent_ids": [
+        "astra",
+        "fable"
+      ]
+    }
+  ],
+  "task_catalog": [
+    {
+      "code": "S01",
+      "title": "Offline throughput 1dev",
+      "short": "Offline",
+      "domain": "serving",
+      "scope": "Fixed"
+    },
+    {
+      "code": "S02",
+      "title": "Online saturation throughput 1dev",
+      "short": "Saturation",
+      "domain": "serving",
+      "scope": "Fixed"
+    },
+    {
+      "code": "S03",
+      "title": "Online TTFT 1dev",
+      "short": "TTFT",
+      "domain": "serving",
+      "scope": "Fixed"
+    },
+    {
+      "code": "S04",
+      "title": "Online SLO goodput 1dev",
+      "short": "SLO",
+      "domain": "serving",
+      "scope": "Fixed"
+    },
+    {
+      "code": "S05",
+      "title": "Mixed interactivity 1dev",
+      "short": "Mixed",
+      "domain": "serving",
+      "scope": "Fixed"
+    },
+    {
+      "code": "S06",
+      "title": "Repeated context 1dev",
+      "short": "Repeated context",
+      "domain": "serving",
+      "scope": "Fixed"
+    },
+    {
+      "code": "S07",
+      "title": "SGLang Qwen3-8B CodeOpt saturation 1dev",
+      "short": "SGLang 8B",
+      "domain": "serving",
+      "scope": "Fixed"
+    },
+    {
+      "code": "S08",
+      "title": "vLLM Ascend Qwen3-8B CodeOpt saturation 1dev",
+      "short": "vLLM 8B",
+      "domain": "serving",
+      "scope": "Fixed"
+    },
+    {
+      "code": "S09",
+      "title": "Generalist 6-regime 1dev",
+      "short": "Generalist",
+      "domain": "serving",
+      "scope": "Fixed"
+    },
+    {
+      "code": "S10",
+      "title": "SGLang Qwen3-14B system serving 2dev",
+      "short": "SGLang 14B",
+      "domain": "serving",
+      "scope": "Joint"
+    },
+    {
+      "code": "S11",
+      "title": "vLLM Ascend Qwen3-30B-A3B MoE system serving 2dev",
+      "short": "vLLM MoE",
+      "domain": "serving",
+      "scope": "Joint"
+    },
+    {
+      "code": "S12",
+      "title": "SGLang LFM2-1.2B model adapt serving 1dev",
+      "short": "Serving adapt",
+      "domain": "serving",
+      "scope": "Adapt"
+    },
+    {
+      "code": "S13",
+      "title": "OpenBuild Qwen3-8B serving 1dev",
+      "short": "Serving build",
+      "domain": "serving",
+      "scope": "OpenBuild"
+    },
+    {
+      "code": "T01",
+      "title": "Qwen3-4B CodeOpt DP2 training 2dev",
+      "short": "DP2",
+      "domain": "training",
+      "scope": "Fixed"
+    },
+    {
+      "code": "T02",
+      "title": "Qwen3-4B CodeOpt TP2 training 2dev",
+      "short": "TP2",
+      "domain": "training",
+      "scope": "Fixed"
+    },
+    {
+      "code": "T03",
+      "title": "Qwen3-4B CodeOpt packed DP2 training 2dev",
+      "short": "Packed DP2",
+      "domain": "training",
+      "scope": "Fixed"
+    },
+    {
+      "code": "T04",
+      "title": "Qwen3-8B system training 4dev",
+      "short": "Training joint",
+      "domain": "training",
+      "scope": "Joint"
+    },
+    {
+      "code": "T05",
+      "title": "LFM2-1.2B model adapt training 1dev",
+      "short": "Training adapt",
+      "domain": "training",
+      "scope": "Adapt"
+    },
+    {
+      "code": "T06",
+      "title": "OpenBuild Qwen3-4B training 2dev",
+      "short": "Training build",
+      "domain": "training",
+      "scope": "OpenBuild"
+    },
+    {
+      "code": "R01",
+      "title": "Qwen3-0.6B CodeOpt GRPO 1dev",
+      "short": "GRPO code",
+      "domain": "rl",
+      "scope": "Fixed"
+    },
+    {
+      "code": "R02",
+      "title": "Qwen3-1.7B online GRPO 2dev",
+      "short": "GRPO joint",
+      "domain": "rl",
+      "scope": "Joint"
+    },
+    {
+      "code": "R03",
+      "title": "Qwen3-1.7B online PPO 2dev",
+      "short": "PPO joint",
+      "domain": "rl",
+      "scope": "Joint"
+    },
+    {
+      "code": "R04",
+      "title": "LFM2-1.2B model adapt GRPO 2dev",
+      "short": "RL adapt",
+      "domain": "rl",
+      "scope": "Adapt"
+    },
+    {
+      "code": "R05",
+      "title": "OpenBuild Qwen3-1.7B online GRPO 2dev",
+      "short": "RL build",
+      "domain": "rl",
+      "scope": "OpenBuild"
+    }
+  ]
+}
